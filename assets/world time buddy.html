@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contact</title>
+	<link rel="stylesheet" type="text/css" href="world time buddy.css">
+<style>
+.output {
+	font-style:italic
+}
+</style>
+	<hr>
+<ul>
+	
+	
+	<li id="l2"><b><a href="http://127.0.0.1:8081/views/index.ejs">Guestbook &nbsp &nbsp </a></b></li>
+    <li id="l2"><b><a target="blank" href="http://127.0.0.1:8081/Contact.html">Contact &nbsp</a></b></li>
+    <li id="l2"><b><a target="blank" href="http://127.0.0.1:8081/world time buddy.html">|Construction cost calculator|&nbsp &nbsp</a></b></li>
+	<li id="l2"><b><a href="http://127.0.0.1:8081/index.html">Home &nbsp &nbsp </a></b></li>
+	</ul>
+<br>
+<br>
+<hr>
+</head>
+<body>
+<div class="cont">
+        <h1>Construction cost Calculator</h1>
+
+        <form name="xyz" onsubmit="constCalculator()">
+            <input type="number" class="textbox" placeholder="cost of roofing in $" name="COR" /> <br/><br/><br/>
+            <input type="number" class="textbox" placeholder="cost of flooring in $" name="COF" /> <br/> <br/><br/>
+            <input type="number" class="textbox" placeholder="cost of plastering in $" name="COP" /> <br/><br/><br/>
+            <input type="number" class="textbox" placeholder="cost of plumbing in $" name="COPB" /> <br/><br/><br/>
+            <input type="number" class="textbox" placeholder="Cost of furniture in $" name="COC" /> <br/><br/><br/>
+
+            <p id="displayEMI"></p>
+            <input type="submit" class="button" value="Calculate Interest" />
+
+        </form>
+    </div>
+</body>
+<script src="calc.js"></script>
+</html>
